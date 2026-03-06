@@ -1,18 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>My Website</title>
-  <!-- Bootstrap CSS plugin -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<title>Learn Web Design</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(120deg,#4facfe,#00f2fe);
+color:white;
+text-align:center;
+}
+
+header{
+padding:40px;
+font-size:30px;
+font-weight:bold;
+}
+
+.card{
+background:white;
+color:black;
+width:320px;
+margin:40px auto;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+button{
+background:#007BFF;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+</style>
+
 </head>
+
 <body>
-  <div class="container mt-5">
-    <h1>Welcome to My Site!</h1>
-    <p>This site is using Bootstrap for styling.</p>
-  </div>
-  <!-- Bootstrap JS plugin -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<header>
+Learn Website Design
+</header>
+
+<div class="card">
+<h2>Welcome</h2>
+<p>This simple website helps beginners learn HTML and CSS.</p>
+
+<button>Start Learning</button>
+</div>
+
 </body>
-</html>My first website 
+</html>
